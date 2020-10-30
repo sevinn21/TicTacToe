@@ -9,7 +9,7 @@ const moveStyles = {
     top: '35%',
     position:'absolute'
     
-}  
+}   
 
 const statusStyles = {
     backgroundcolor:'blue',

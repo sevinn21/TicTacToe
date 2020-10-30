@@ -9,7 +9,7 @@ const Square = ({ value, onClick }) => {
         </button>
      </div>
     )
-}  
+}   
 
 export default Square
 

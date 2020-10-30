@@ -55,7 +55,7 @@
     border: 2px solid darkblue;
     width:70px;
     height:70px;
-    font-size: 60px;
-    cursor: pointer;
+    font-size: 60px; 
+    cursor: pointer; 
     outline: none;
 }  
