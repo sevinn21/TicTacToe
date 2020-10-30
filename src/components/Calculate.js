@@ -1,4 +1,5 @@
 export function calculateWinner(squares) {
+  //kazanmak için tüm durumlar kontrol ediliyor
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
@@ -20,19 +21,17 @@ export function calculateWinner(squares) {
   }
   
   export function areAllBoxesClicked(squares) {
-    // Declare variable to store number of clicked boxes.
+   //tüm kutulara tıklanıp tıklanmadığı kontrolu sağlanıyor.
     let count = 0
-
-    // Iterate over all boxes
+ 
     squares.forEach(function (item) {
-        // Check if box is clicked (not null)
+
         if (item !== null) {
-            // If yes, increase the value of count by 1
+    
             count++
         }
     }) 
 
-    // Check if all boxes are clicked (filled)
     if (count === 9) {
         return true
     } else {
