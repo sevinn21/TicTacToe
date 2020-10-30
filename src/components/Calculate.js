@@ -30,7 +30,7 @@ export function calculateWinner(squares) {
             // If yes, increase the value of count by 1
             count++
         }
-    })
+    }) 
 
     // Check if all boxes are clicked (filled)
     if (count === 9) {
